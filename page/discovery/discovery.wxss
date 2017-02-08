@@ -1,0 +1,26 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.swiper-item{
+    display: block;
+    height: 150px;
+}
+
+.scroll-view_H{
+    white-space: nowrap;
+}
+.scroll-view-item{
+    height: 38px;
+}
+.scroll-view-item_H{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+}

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "page/discovery/discovery",
+    "page/follow/follow",
+    "page/me/me",
+    "page/control/control"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1f1f23",
+    "navigationBarTitleText": "Sioeye",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#A8C457",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/discovery/discovery",
+        "iconPath": "image/discovery.png",
+        "selectedIconPath": "image/discovery_hit.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "page/follow/follow",
+        "iconPath": "image/tab_follow.png",
+        "selectedIconPath": "image/tab_follow_hit.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "page/me/me",
+        "iconPath": "image/me.png",
+        "selectedIconPath": "image/me_hit.png",
+        "text": "我"
+      },
+      {
+        "pagePath": "page/control/control",
+        "iconPath": "image/remote_control.png",
+        "selectedIconPath": "image/remote_control_hit.png",
+        "text": "相机"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
