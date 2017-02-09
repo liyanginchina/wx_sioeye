@@ -5,7 +5,8 @@
     "page/me/me",
     "page/control/control",
     "page/me/liveconfig/liveconfig",
-    "page/me/qrcode/qrcode"
+    "page/me/qrcode/qrcode",
+    "page/player/player"
   ],
   "window": {
     "backgroundTextStyle": "light",

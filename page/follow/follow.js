@@ -12,7 +12,7 @@ Page({
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
-    this.loadMore('');    
+    this.loadMore('');
   },
   onReady: function () {
     // 页面渲染完成
@@ -30,6 +30,7 @@ Page({
   //事件处理函数
   bindViewTap: function (e) {
     console.log(e.currentTarget.dataset.title);
+    wx.navigateTo({ url: "../player/player" });
   },
 
   loadMore: function (e) {

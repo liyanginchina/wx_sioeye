@@ -1,0 +1,4 @@
+<view class="page__bd">
+  <video src="http://flv.bn.netease.com/videolib3/1605/22/auDfZ8781/HD/auDfZ8781-mobile.mp4"
+         binderror="videoErrorCallback"></video>
+</view>
