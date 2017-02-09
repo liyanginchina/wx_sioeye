@@ -8,7 +8,7 @@
           <block wx:for-items="{{image}}">
             <swiper-item>
               <view class="swiper-item">
-              <image src="{{item}}"></image>
+                <image src="{{item}}"></image>
               </view>
             </swiper-item>
           </block>
@@ -16,11 +16,27 @@
       </view>
     </view>
     <view class="section section_gap">
-      <view class="section__title">
+      <!--<view class="section__title">
         <view class="">推荐关注</view>
         <view class="">x</view>
-      </view>
+      </view>-->
       <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <image class="scroll-view-item_H"
+               src="https://cn-replay.livestream.sioeye.cn/background/2016-10-28/upload_961a361ebac8c3a6132b5989e4c71b63.jpg">
+        
+        </image>
+        <image class="scroll-view-item_H"
+               src="https://cn-replay.livestream.sioeye.cn/background/2016-10-28/upload_961a361ebac8c3a6132b5989e4c71b63.jpg">
+        
+        </image>
+        <image class="scroll-view-item_H"
+               src="https://cn-replay.livestream.sioeye.cn/background/2016-10-28/upload_961a361ebac8c3a6132b5989e4c71b63.jpg">
+        
+        </image>
+        <image class="scroll-view-item_H"
+               src="https://cn-replay.livestream.sioeye.cn/background/2016-10-28/upload_961a361ebac8c3a6132b5989e4c71b63.jpg">
+        
+        </image>
         <view id="green" class="scroll-view-item_H bc_green"></view>
         <view id="red" class="scroll-view-item_H bc_red"></view>
         <view id="yellow" class="scroll-view-item_H bc_yellow"></view>

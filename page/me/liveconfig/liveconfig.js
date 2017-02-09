@@ -1,6 +1,6 @@
 Page({
   data:{
-    text:"Page me"
+    text:"Page liveconfig"
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
@@ -16,11 +16,5 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
-  },
-  widgetsToggle:function(e){
-    //console.log(e);
-    var id=e.currentTarget.id;
-    console.log(id);
-    
   }
 })

@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle">{{text}}</text>
+  </view>
+  <image src="http://img.blog.csdn.net/20141224160911852" class="qrcode"></image>
+</view>

@@ -1,5 +1,42 @@
-<view class="container">
-  <view class="textContainer">
-    <text class="textStyle">{{text}}</text>
+ <view class="body">
+ <image src="https://cn-replay.livestream.sioeye.cn/background/2016-10-28/upload_961a361ebac8c3a6132b5989e4c71b63.jpg" class="user_bg"></image>
+  <view class="widgets">
+    <block>
+      <navigator class="widgets__item" url="./liveconfig/liveconfig">
+        <view class="widgets__info" bindtap="widgetsToggle" id="nav1">
+          <image src="/image/lock.png" class="widget_img"></image>
+          <text class="widgets__info-name">直播配置</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </navigator>
+      <navigator class="widgets__item" url="./qrcode/qrcode">
+        <view class="widgets__info" bindtap="widgetsToggle">
+          <image src="/image/qrcode.png" class="widget_img"></image>
+          <text class="widgets__info-name">二维码</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </navigator>
+      <view class="widgets__item">
+        <view class="widgets__info" bindtap="widgetsToggle">
+          <image src="/image/message.png" class="widget_img"></image>
+          <text class="widgets__info-name">消息</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </view>
+      <view class="widgets__item">
+        <view class="widgets__info" bindtap="widgetsToggle">
+          <image src="/image/video.png" class="widget_img"></image>
+          <text class="widgets__info-name">我的剪辑</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </view>
+      <view class="widgets__item">
+        <view class="widgets__info" bindtap="widgetsToggle">
+          <image src="/image/config.png" class="widget_img"></image>
+          <text class="widgets__info-name">设置</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </view>
+    </block>
   </view>
 </view>

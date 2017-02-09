@@ -1,0 +1,24 @@
+ <view class="body">
+  <view class="widgets">
+    <block>
+      <navigator class="widgets__item" url="">
+        <view class="widgets__info" >
+          <text class="widgets__info-name">默认视频标题</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </navigator>
+      <navigator class="widgets__item" url="">
+        <view class="widgets__info">
+          <text class="widgets__info-name">谁可以看我的直播</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </navigator>
+      <view class="widgets__item">
+        <view class="widgets__info">
+          <text class="widgets__info-name">同步直播到</text>
+          <image class="widget__arrow" src="/image/arrowright.png" mode="aspectFill"  />
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

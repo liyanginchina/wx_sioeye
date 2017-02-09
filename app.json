@@ -3,7 +3,9 @@
     "page/discovery/discovery",
     "page/follow/follow",
     "page/me/me",
-    "page/control/control"
+    "page/control/control",
+    "page/me/liveconfig/liveconfig",
+    "page/me/qrcode/qrcode"
   ],
   "window": {
     "backgroundTextStyle": "light",
