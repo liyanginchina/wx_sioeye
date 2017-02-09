@@ -38,7 +38,7 @@ Page({
       hasRefesh: false,
     });
     if (!this.data.hasMore) return
-    var url = 'http://v.juhe.cn/weixin/query?key=f16af393a63364b729fd81ed9fdd4b7d&pno=' + (++that.data.page) + '&ps=10';
+    var url = 'https://v.juhe.cn/weixin/query?key=f16af393a63364b729fd81ed9fdd4b7d&pno=' + (++that.data.page) + '&ps=10';
     network_util._get(url,
       function (res) {
         that.setData({
@@ -56,7 +56,7 @@ Page({
     that.setData({
       hasRefesh: true,
     });
-    var url = 'http://v.juhe.cn/weixin/query?key=f16af393a63364b729fd81ed9fdd4b7d&pno=1&ps=10';
+    var url = 'https://v.juhe.cn/weixin/query?key=f16af393a63364b729fd81ed9fdd4b7d&pno=1&ps=10';
     network_util._get(url,
       function (res) {
         that.setData({
