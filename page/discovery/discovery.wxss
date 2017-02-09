@@ -10,7 +10,12 @@
 
 .swiper-item{
     display: block;
-    height: 150px;
+    height: 100px;
+}
+
+.swiper-item image{
+    height: 160px;
+    width: 100%;
 }
 
 .scroll-view_H{

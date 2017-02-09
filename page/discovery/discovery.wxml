@@ -5,9 +5,11 @@
       <view class="section section_gap swiper">
         <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}"
                 interval="{{interval}}" duration="{{duration}}">
-          <block wx:for-items="{{background}}">
+          <block wx:for-items="{{image}}">
             <swiper-item>
-              <view class="swiper-item bc_{{item}}"></view>
+              <view class="swiper-item">
+              <image src="{{item}}"></image>
+              </view>
             </swiper-item>
           </block>
         </swiper>
